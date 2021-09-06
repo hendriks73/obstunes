@@ -1,6 +1,7 @@
 name: Deploy
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
@@ -9,8 +10,8 @@ on:
 jobs:
   build:
 
+    # Unfortunately, GitHub silently ignores this and uses macOS 10.15. :-/
     runs-on: macos-10.14
-
 
     steps:
       - id: install-secret-key

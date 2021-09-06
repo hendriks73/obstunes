@@ -11,10 +11,10 @@ on:
       - dev
       - main
 
-
 jobs:
   build:
 
+    # Unfortunately, GitHub silently ignores this and uses macOS 10.15. :-/
     runs-on: macos-10.14
 
     steps:

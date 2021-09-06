@@ -5,7 +5,7 @@
     <artifactId>obstunes</artifactId>
     <packaging>jar</packaging>
     <name>Obst Tunes</name>
-    <version>0.9.0-SNAPSHOT</version>
+    <version>0.9.0</version>
     <description>Java API for iTunes (macOS).</description>
     <url>https://www.tagtraum.com/</url>
     <inceptionYear>2006</inceptionYear>
