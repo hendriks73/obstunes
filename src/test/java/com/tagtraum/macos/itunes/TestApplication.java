@@ -6,6 +6,7 @@
  */
 package com.tagtraum.macos.itunes;
 
+import com.tagtraum.japlscript.execution.JaplScriptException;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.condition.EnabledIfSystemProperty;
 
@@ -43,11 +44,11 @@ public class TestApplication {
         disabledReason = "Test only enabled on macOS 10.14")
     public void testCurrentlyPLaying() {
         final Application application = Application.getInstance();
-        final Track currentTrack = application.getCurrentTrack();
-        if (currentTrack == null) {
-            System.out.println("No track loaded.");
-        } else {
+        try {
+            final Track currentTrack = application.getCurrentTrack();
             System.out.println("Current track: " + currentTrack.getName() + " by " + currentTrack.getArtist());
+        } catch(JaplScriptException e) {
+            System.out.println("No track loaded (we assume).");
         }
     }
 }
