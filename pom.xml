@@ -4,11 +4,11 @@
     <groupId>com.tagtraum</groupId>
     <artifactId>obstunes</artifactId>
     <packaging>jar</packaging>
-    <name>Obst Tunes</name>
+    <name>Obstunes</name>
     <version>0.9.1-SNAPSHOT</version>
     <description>Java API for iTunes (macOS).</description>
     <url>https://www.tagtraum.com/</url>
-    <inceptionYear>2006</inceptionYear>
+    <inceptionYear>2021</inceptionYear>
     <licenses>
         <license>
             <name>LGPL</name>
