@@ -57,7 +57,7 @@ jobs:
             clean deploy --file pom.xml
 
       # deploy javadocs to github pages
-      - name: Deploy
+      - name: Deploy Javadocs to GitHub Pages Branch
         uses: JamesIves/github-pages-deploy-action@4.1.5
         with:
           branch: gh-pages
