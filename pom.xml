@@ -5,7 +5,7 @@
     <artifactId>obstunes</artifactId>
     <packaging>jar</packaging>
     <name>Obstunes</name>
-    <version>0.9.1-SNAPSHOT</version>
+    <version>0.9.1</version>
     <description>Java API for iTunes (macOS).</description>
     <url>https://www.tagtraum.com/</url>
     <inceptionYear>2021</inceptionYear>
@@ -39,12 +39,12 @@
         <dependency>
             <groupId>com.tagtraum</groupId>
             <artifactId>japlscript-runtime</artifactId>
-            <version>3.4.0</version>
+            <version>3.4.3</version>
         </dependency>
         <dependency>
             <groupId>com.tagtraum</groupId>
             <artifactId>japlscript-generator</artifactId>
-            <version>3.4.0</version>
+            <version>3.4.3</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
