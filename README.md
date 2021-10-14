@@ -1,12 +1,12 @@
 [![LGPL 2.1](https://img.shields.io/badge/License-LGPL_2.1-blue.svg)](https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.tagtraum/obstunes/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.tagtraum/obstunes)
-[![Build and Test](https://github.com/hendriks73/obstunes/workflows/Build%20and%20Test/badge.svg)](https://github.com/hendriks73/obstunes/actions)
+[![Build and Test](https://github.com/japlscript/obstunes/workflows/Build%20and%20Test/badge.svg)](https://github.com/japlscript/obstunes/actions)
 
 
 # Obstunes
 
 *Obstunes* is a Java API for iTunes (macOS) based on
-[JaplScript](https://github.com/hendriks73/japlscript).
+[JaplScript](https://github.com/japlscript/japlscript).
 
 
 ## Installation
@@ -47,7 +47,7 @@ public class PlayPause {
 
 ## API
 
-You can find the complete [API here](https://hendriks73.github.io/obstunes/com/tagtraum/macos/itunes/package-summary.html). 
+You can find the complete [API here](https://japlscript.github.io/obstunes/com/tagtraum/macos/itunes/package-summary.html). 
       
 
 ## AppleScript Sandbox
