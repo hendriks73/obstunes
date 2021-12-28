@@ -5,7 +5,7 @@
     <artifactId>obstunes</artifactId>
     <packaging>jar</packaging>
     <name>Obstunes</name>
-    <version>0.9.5-SNAPSHOT</version>
+    <version>0.9.6-SNAPSHOT</version>
     <description>Java API for iTunes (macOS)</description>
     <url>https://github.com/japlscript/obstunes</url>
     <inceptionYear>2021</inceptionYear>
