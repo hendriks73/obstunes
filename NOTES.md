@@ -1,6 +1,7 @@
 - 0.9.5
 
   - Moved GitHub repository to https://github.com/japlscript/obstunes
+  - Moved to JaplScript 3.4.10
 
 
 - 0.9.4
