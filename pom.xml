@@ -5,7 +5,7 @@
     <artifactId>obstunes</artifactId>
     <packaging>jar</packaging>
     <name>Obstunes</name>
-    <version>0.9.5</version>
+    <version>0.9.6</version>
     <description>Java API for iTunes (macOS)</description>
     <url>https://github.com/japlscript/obstunes</url>
     <inceptionYear>2021</inceptionYear>
@@ -244,7 +244,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <japlscript.version>3.4.10</japlscript.version>
+        <japlscript.version>3.4.11</japlscript.version>
         <maven.build.timestamp.format>yyyy-MM-dd HH:mm</maven.build.timestamp.format>
     </properties>
 

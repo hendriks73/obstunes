@@ -1,3 +1,9 @@
+- 0.9.6
+
+  - Added `add()` to list of methods that needs cardinality fixing
+  - Moved to JaplScript 3.4.11
+
+
 - 0.9.5
 
   - Moved GitHub repository to https://github.com/japlscript/obstunes
